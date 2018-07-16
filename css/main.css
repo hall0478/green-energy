@@ -1,0 +1,122 @@
+/*
+colours used: #033c00, #077e01, #d3d3d3
+*/
+
+/*--------GENERAL---------*/
+
+body, button {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+h1, h2, h3 {
+    font-family: 'Quattrocento', serif;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+
+/*--------NAV BAR--------*/
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #077e01;
+}
+
+
+/*--------MASTHEAD--------*/
+
+header {
+    background-image: url(../img/green-energy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #033c00;
+}
+
+header h1, header h2 {
+    margin-left: 5%;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/*--------DYNAMIC CONTENT--------*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #d3d3d3;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 30px;        
+}
+
+img {
+    width: 100%;
+}
+/*--------FOOTER--------*/
+
+footer {
+    background-color: #033c00;
+    margin-top: 20px;
+}
+
+i {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 15px;
+}
+
+/*--------MEDIA QUERIES--------*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    body {
+        font-size: 1em;
+    }
+    
+    img {
+        width: 50%;
+        max-width: 400px;
+        display: inline-block;
+        float: left;
+        margin: 0 30px 30px 0;
+    }
+    i {
+        font-size: 1em;
+        margin: 10px;
+    }
+    
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    button {
+            margin: 3%;
+            display: inline-block;
+            width: 25%;
+            
+            
+    }
+}
