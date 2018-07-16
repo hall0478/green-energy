@@ -6,7 +6,7 @@ colours used: #033c00, #077e01, #d3d3d3
 
 body, button {
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 0.75rem;
     line-height: 1.5em;
 }
 
@@ -94,7 +94,7 @@ i {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     body {
-        font-size: 1em;
+        font-size: 1rem;
     }
     
     img {
